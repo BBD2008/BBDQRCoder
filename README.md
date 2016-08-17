@@ -3,7 +3,7 @@
 
 ##图片演示
 
-![image](https://github.com/BBD2008/BBDQRCoder/raw/master/Image/qr.gif)
+![image](https://github.com/BBD2008/BBDQRCoder/raw/master/Image/qr.png)
 
 ##导入方式
 
