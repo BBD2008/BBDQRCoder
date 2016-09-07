@@ -14,6 +14,9 @@
 		1878344C1D18CC0800CF2251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878344B1D18CC0800CF2251 /* Assets.xcassets */; };
 		1878344F1D18CC0800CF2251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878344D1D18CC0800CF2251 /* LaunchScreen.storyboard */; };
 		A148C5DD1D64150E00256885 /* BBDQRCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A148C5DC1D64150E00256885 /* BBDQRCoder.m */; };
+		A148C5E01D644A4600256885 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A148C5DF1D644A4600256885 /* TableViewController.m */; };
+		A148C5E21D6451A100256885 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A148C5E11D6451A100256885 /* CFNetwork.framework */; };
+		A148C5E41D6451A900256885 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A148C5E31D6451A900256885 /* NetworkExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,10 @@
 		187834501D18CC0800CF2251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A148C5DB1D64150E00256885 /* BBDQRCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDQRCoder.h; sourceTree = "<group>"; };
 		A148C5DC1D64150E00256885 /* BBDQRCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDQRCoder.m; sourceTree = "<group>"; };
+		A148C5DE1D644A4600256885 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A148C5DF1D644A4600256885 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A148C5E11D6451A100256885 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A148C5E31D6451A900256885 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A148C5E41D6451A900256885 /* NetworkExtension.framework in Frameworks */,
+				A148C5E21D6451A100256885 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +54,8 @@
 		187834331D18CC0800CF2251 = {
 			isa = PBXGroup;
 			children = (
+				A148C5E31D6451A900256885 /* NetworkExtension.framework */,
+				A148C5E11D6451A100256885 /* CFNetwork.framework */,
 				1878343E1D18CC0800CF2251 /* 二维码生成 */,
 				1878343D1D18CC0800CF2251 /* Products */,
 			);
@@ -65,6 +76,8 @@
 				187834431D18CC0800CF2251 /* AppDelegate.m */,
 				187834451D18CC0800CF2251 /* ViewController.h */,
 				187834461D18CC0800CF2251 /* ViewController.m */,
+				A148C5DE1D644A4600256885 /* TableViewController.h */,
+				A148C5DF1D644A4600256885 /* TableViewController.m */,
 				A148C5DB1D64150E00256885 /* BBDQRCoder.h */,
 				A148C5DC1D64150E00256885 /* BBDQRCoder.m */,
 				187834481D18CC0800CF2251 /* Main.storyboard */,
@@ -158,6 +171,7 @@
 				187834471D18CC0800CF2251 /* ViewController.m in Sources */,
 				187834441D18CC0800CF2251 /* AppDelegate.m in Sources */,
 				187834411D18CC0800CF2251 /* main.m in Sources */,
+				A148C5E01D644A4600256885 /* TableViewController.m in Sources */,
 				A148C5DD1D64150E00256885 /* BBDQRCoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
